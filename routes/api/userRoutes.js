@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { get } = require('http');
+
 // import destructured methods
 const {
     getAllUsers,
@@ -22,7 +22,7 @@ router
 
 router
 .route('/:id')
-get(getUserById)
+.get(getUserById)
 .put(updateUser)
 .delete(deleteUser)
 
