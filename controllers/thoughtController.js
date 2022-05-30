@@ -6,10 +6,10 @@ const thoughtController = {
         Thought.find({})
             .select('-__v')
             .then((thoughtData) => res.json(thoughtData))
-                .catch((err) => {
-                    console.log(err);
-                    res.status(400).json(err);
-                })
+            .catch((err) => {
+                console.log(err);
+                res.status(400).json(err);
+            })
     },
     // get thought by id
     getThoughtById({ params }, res) {
@@ -111,7 +111,7 @@ const thoughtController = {
 
     // delete reaction
     deleteReaction({ params, body }, res) {
-        Thought.findByIdAndDelete(
+        Thought.findByIdAndUpdate(
             params.thoughtId,
             { $pull: { reactions: { reactionId: body.reactionId } } },
             { new: true }
