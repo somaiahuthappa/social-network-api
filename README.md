@@ -45,7 +45,7 @@
   -------------------
 
   ## Questions
-  - If you have any questions, find me on Github [somaiahuthappa](https://github.com/somaiahuthappa) or email me at somaiahuthappa@gmail.com.
+  - If you have any questions, find me on Github [somaiahuthappa](https://github.com/somaiahuthappa).
 
   -------------------
 
