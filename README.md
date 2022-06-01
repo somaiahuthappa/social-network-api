@@ -39,7 +39,7 @@
 
   ## Links
   Links to the walkthrough videos:
-  - [User and Freinds Video](https://www.youtube.com/watch?v=sPHgRrLT8ws)
+  - [User and Friends Video](https://www.youtube.com/watch?v=sPHgRrLT8ws)
   - [Thoughts and Reaction Video](https://www.youtube.com/watch?v=vIqdanTdmdk)
 
   -------------------
